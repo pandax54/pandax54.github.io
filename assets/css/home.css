@@ -1,0 +1,153 @@
+
+
+/* CONTENT  */
+
+main {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+div.text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 177px 0 0 0;
+    background-color: var(--color-white);
+}
+
+.text h1 {
+    margin-right: -30px;
+    width: 539px;
+    height: 41px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 41px;
+    letter-spacing: 0.8px;
+    margin-bottom: 68px;
+
+    color: #5CAFEB;
+}
+
+.text p {
+    margin-right: -80px;
+    width: 636px;
+    height: 202px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.8px;      
+    background: var(--color-white); /* fallback color */
+    padding: 10px; 
+    z-index: 2;
+
+    color: #6E6D7A;
+}
+
+div.image {
+    margin: 40px 0;
+}
+
+div.image img {
+    display: block;
+    width: 550px;
+    height: auto;
+}
+
+#image-data {
+    min-width: 800px;
+    height: 800px;
+    background-image: url('../images/5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    background-size: contain;
+    opacity: 0;
+    animation: animatedBackground 10s cubic-bezier(.06,1.21,.83,.67) infinite;
+}
+
+@keyframes animatedBackground {
+    from {
+      opacity: 0;
+      /* background-position: 0 0; */
+    }
+    to {
+      opacity: 1;
+      /* background-position: 100% 0; */
+    }
+  }
+
+/* ------------- MODAL -------------- */
+
+div.modal {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    min-height: 90vh;
+    background-color: rgba(0,0,0,0.5);
+    overflow: auto;
+    margin: 0 auto;
+    display: flex;
+    display: none;
+    z-index: 3;
+
+}
+
+div.modal img {
+    display: block;
+    width: auto;
+    max-height: 100vh;
+}
+
+
+.modal-content {
+    position: relative;
+    margin: 10% auto;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+  }
+
+
+.close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -50px;
+  right: 0;
+  color: #ccc;
+  font-size: 50px;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.close:hover,
+.close:focus {
+  color: var(--color-red);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
