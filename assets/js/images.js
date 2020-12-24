@@ -39,6 +39,7 @@ else if (start==4)
 else if (start==5)
    {
         imageData="5.jpg";
+        start=0;
    }
    else if (start>5)
    {
