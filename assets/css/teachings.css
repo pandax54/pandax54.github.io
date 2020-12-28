@@ -32,3 +32,9 @@ ul li.bullet-list a:hover {
     text-decoration: none;
     color: var(--color-lighred);
 }
+
+@media (max-width: 500px) {
+    ul li.bullet-list, ul li.bullet-list a {
+        margin-left: 15px;
+    }
+}

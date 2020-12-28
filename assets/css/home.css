@@ -151,3 +151,61 @@ div.modal img {
     opacity: 1;
   }
 }
+
+
+@media (max-width: 500px) {
+  main {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: 80vh;
+    /* border: 1px solid red; */
+}
+
+div.text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 0 0;
+    background-color: var(--color-white);
+}
+
+.text h1 {
+    margin-right: 0;
+    width: 320px;
+    height: 41px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 41px;
+    letter-spacing: 0.8px;
+    margin-bottom: 50px;
+
+    color: #5CAFEB;
+}
+
+.text p {
+    margin-right: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 40px;
+    letter-spacing: 0.8px;      
+    background: var(--color-white); /* fallback color */
+    padding: 10px; 
+    z-index: 2;
+
+    color: #6E6D7A;
+}
+
+.text-presentation {
+  max-width: 320px;
+}
+
+div.image {
+    display: none;
+}
+
+}

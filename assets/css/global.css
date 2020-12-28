@@ -29,6 +29,7 @@
       min-height: 100vh;
       min-height: auto;
       background-color: var(--color-white);
+      overflow-x: hidden;
   }
 
   body {
@@ -39,6 +40,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 100%;
   }
 
   nav.navbar {
@@ -106,12 +108,33 @@ a:hover i {
       background-color: var(--color-black);
       height: 102px;
       margin-top: 20px;
+      display: block;
   }
 
 
-  @media (min-width: 700px) {
+  @media (max-width: 500px) {
       :root {
           /* converter 1rem para 10px  */
-          font-size: 62.5%;
+          font-size: 50%;
       }
+
+      nav.navbar {
+        padding: 30px 0 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-black);
+    }
+    
+    nav.navbar li {
+        padding-right: 15px;
+    }
+
+    li.last-icon {
+        margin-right: 10px;
+    }
+
+    footer {
+        display: none;
+    }
   }
