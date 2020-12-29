@@ -7,6 +7,7 @@ main {
     margin: 0 auto;
     width: 80%;
     height: 100vh;
+    box-sizing: border-box;
     /* border: 1px solid red; */
 }
 
@@ -16,35 +17,39 @@ div.text {
     flex-direction: column;
     margin: 177px 0 0 0;
     background-color: var(--color-white);
+    width: 100%;
 }
 
 .text h1 {
-    margin-right: -30px;
-    width: 539px;
-    height: 41px;
+    margin-right: -80px;
+    width: 100%;
+    max-width: 700px;
+    min-height: 41px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
-    font-size: 72px;
-    line-height: 41px;
+    font-size: 5vw;
+    line-height: 100%;
     letter-spacing: 0.8px;
-    margin-bottom: 68px;
+    padding: 10px; 
+    padding-bottom: 40px;
+    z-index: 2;
 
     color: #5CAFEB;
 }
 
 .text p {
     margin-right: -80px;
-    width: 636px;
-    height: 202px;
+    max-width: 636px;
+    max-height: 202px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 40px;
+    font-size: 1.5vw;
+    line-height: 150%;
     letter-spacing: 0.8px;      
     background: var(--color-white); /* fallback color */
-    padding: 10px; 
+    padding: 15px; 
     z-index: 2;
 
     color: #6E6D7A;
@@ -61,7 +66,7 @@ div.image img {
 }
 
 #image-data {
-    min-width: 800px;
+    width: 100%;
     height: 800px;
     background-image: url('../images/5.jpg');
     background-repeat: no-repeat;
@@ -70,6 +75,19 @@ div.image img {
     background-size: contain;
     opacity: 0;
     animation: animatedBackground 10s ease-out infinite;
+}
+
+a {
+  color: var(--color-text-base);
+  text-decoration: underline;
+  text-decoration-color: var(--color-lighred);
+  text-decoration-thickness: 1px;
+  /* text-underline-position: under; */
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--color-lighred);
 }
 
 @keyframes animatedBackground {
@@ -153,7 +171,7 @@ div.modal img {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 1200px) {
   main {
     display: flex;
     margin: 0 auto;
@@ -163,9 +181,12 @@ div.modal img {
 }
 
 div.text {
+    text-align: center;
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 100px 0 0 0;
     background-color: var(--color-white);
 }
