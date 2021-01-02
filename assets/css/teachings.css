@@ -1,5 +1,6 @@
 ul {
     margin-top: 100px;
+    margin-left: 30px;
 }
 
 ul li.bullet-list, ul li.bullet-list a {
@@ -17,7 +18,7 @@ li.bullet-list::before {
     font-weight: bold;
     display: inline-block; 
     width: 1.5em;
-    margin-left: -1em;
+    margin-left: -29px;
     font-size: 2rem;
 }
 
