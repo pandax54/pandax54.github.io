@@ -29,6 +29,7 @@ div.text {
     font-style: normal;
     font-weight: bold;
     font-size: 5vw;
+    /* font-size: clamp(2rem, 5vw, ); */
     line-height: 100%;
     letter-spacing: 0.8px;
     padding: 10px; 
@@ -41,7 +42,7 @@ div.text {
 .text p {
     margin-right: -80px;
     max-width: 636px;
-    max-height: 202px;
+    /* max-height: 202px; */
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
