@@ -1,0 +1,20 @@
+main.tular {
+    display: flex;
+    flex-direction: column;
+}
+
+div.text {
+    margin-bottom: 50px;
+}
+
+.text p {
+    margin-right: 0;
+    min-width: 90%;
+    height: auto;
+
+    color: #6E6D7A;
+}
+
+@media (max-width: 500px) {
+
+}
