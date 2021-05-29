@@ -1,0 +1,13 @@
+
+
+*, body {
+    background-color: black;
+    width: 85%;
+    margin: 40px 40px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
