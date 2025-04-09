@@ -70,7 +70,7 @@ Designed, developed, and maintained **scalable systems** with a strong focus on 
 - **Backend:** Node.js (NestJS, Express), Ruby on Rails
 - **Frontend:** React.js (Next.js), jQuery
 - **Databases:** PostgreSQL, MySQL, MongoDB, Firebase
-- **DevOps & Cloud:** Docker, Terraform, CI/CD (GitHub Actions, Jenkins)
+- **DevOps & Cloud:** Docker, Terraform, CI/CD (GitHub Actions, Jenkins), Heroku, GCP
 - **E-commerce Integrations:** Shopify, eBay, Extensiv, Amazon
 - **AI & Chatbots:** NLU Training, Conversational Interfaces
 
