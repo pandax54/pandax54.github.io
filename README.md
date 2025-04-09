@@ -1,8 +1,8 @@
 # Fernanda Penna Ribeiro
 
-email: fernandapennaribeiro@gmail.com
-linkdin: https://www.linkedin.com/in/fernanda-penna-ribeiro/
-phone: +55 (027) 99875-3750
+- email: fernandapennaribeiro@gmail.com
+- linkedin: https://www.linkedin.com/in/fernanda-penna-ribeiro/
+- phone: +55 (027) 99875-3750
 
 I'm a Full Stack Web Developer from Brazil, and I’ve taken a bit of an unconventional path to get here. I started my career as a tax lawyer, but my passion for tech eventually led me to make the leap into software development. I kicked things off in Frontend development, working with React and Vue, then transitioned into Backend. Now, I work across the full stack.
 
