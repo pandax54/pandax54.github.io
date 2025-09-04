@@ -14,7 +14,7 @@ What I love most about this field is being able to use my creativity and hard wo
 
 ### Software Engineer  
 **VESYL** · Freelance  
-📅 Aug 2023 - Present (1 yr 7 mos)  
+📅 Aug 2023 - Present (2 yr 2 mos)  
 📍 United States · Remote  
 
 Developed and maintained **VESYL’s shipping and logistics platform**, enabling seamless **e-commerce integrations** for major online stores, including **Shopify, eBay, Extensiv, Amazon, and many more**.  
