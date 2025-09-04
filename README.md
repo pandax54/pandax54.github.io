@@ -80,3 +80,23 @@ Designed, developed, and maintained **scalable systems** with a strong focus on 
 
 - **Languages:** Portuguese (Native), English (Fluent), French (Advanced)
 - **Soft Skills:** Problem-solving, Collaboration, Leadership, Self-learning
+- 
+
+## 🎒 Portfolio, technical tests, personal projects, etc
+
+https://github.com/pandax54/project-tabnews
+
+https://github.com/pandax54/quorum-test-project
+
+https://github.com/pandax54/address-book-api
+
+https://github.com/pandax54/300bot
+
+https://github.com/pandax54/study-project
+
+https://github.com/pandax54/proffy
+https://github.com/pandax54/Be-the-Hero
+https://github.com/pandax54/ecoleta
+https://github.com/pandax54/aircnc
+
+https://github.com/pandax54/greenhamandeggs
